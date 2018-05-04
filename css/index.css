@@ -1,0 +1,329 @@
+.banner-text {
+    height: 174px;
+}
+
+.banner-text .banner-title {
+    font-size: 52px;
+    text-align: center;
+    letter-spacing: 5px;
+    color: #545e69;
+}
+
+.banner-text .banner-subtitle {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+    letter-spacing: 3px;
+    font-weight: lighter;
+    color: #47525f;
+}
+
+.banner img {
+    width: 1366px;  /*高度为402px*/
+}
+
+.panel-product {
+    color: #6bc2e6;
+    height: 836px;
+    background-color: #e3ecf2;
+    overflow: hidden;  /*因为子级元素的margin-top会影响到父级元素*/
+}
+
+.text-title, .text-elaboration {
+    text-align: center;
+}
+
+.text-title {
+    font-size: 48px;
+    padding-top: 96px;
+    margin-bottom: 64px;
+}
+
+.text-elaboration {
+    font-size: 22px;
+}
+
+.text-elaboration-small {
+    text-align: center;
+    font-size: 17px;
+    padding: 0 46px;
+}
+
+.product-list {
+    margin-top: 104px;
+}
+
+.product-list .product-col {
+    float: left;
+    margin: 0 52px;
+    width: 196px;
+    background-color: #fefefe;
+    border-radius: 7%;
+    box-shadow: 0 0 40px #a8b0b5;
+}
+
+.product-list .product-col img {
+    margin: 16px 44px;
+}
+
+.product-col .line {
+    border-top: 1px solid #d1d3d3;
+}
+
+.product-col .product-col-text {
+    text-align: center;
+    margin: 35px 24px;
+    font-size: 14px;
+    color: #9f9f9f;
+}
+
+.product-col .product-col-text span:hover {
+    background-color: #78c9de;
+    color: white;
+}
+
+.product-col .product-col-text span {
+    font-size: 22px;
+    display: block;
+    margin-bottom: 22px;
+    color: #78c9de;
+}
+
+.panel-pattern {
+    color: #666666;
+    height: 1010px;
+}
+
+.pattern-pics {
+    margin-top: 98px;
+}
+
+.pattern-pics .pics-row {
+    height: 256px;
+    margin-left:12px;
+    margin-right: 12px;
+    position: relative;
+    padding-top: 15px;
+}
+
+.pics-wrapper-middle {
+    margin-top: -110px;
+}
+
+.pics-wrapper-bottom {
+    margin-top: -110px;
+}
+
+.pattern-pics .pics-row .industry {
+    float: left;
+    height: 66px;  /*本来的高度为256px，但是此处为了重叠元素，所以高度值减小*/
+    width: 223px;  /*宽度值不能随意设置，因为关系到margin*/
+    margin-right: 49px;
+}
+
+.pics-row ul {
+    height: 256px;
+}
+
+.pattern-pics .pics-middle .industry {
+    float: right;
+}
+
+.pattern-pics .pics-row .pics-middle-advertising {
+    margin-right: 0;
+}
+
+.pics-row .industry .hexagon-up {
+    width: 128px;
+    height: 114px;
+    transform: rotate(150deg) skew(30deg);
+    background-color: white;
+    margin-left: 48px;
+    box-shadow: -10px 0px 15px -4px #e0e9ee, 0px 10px 15px -4px #e0e9ee;
+}
+
+.pics-row .industry .hexagon-middle {
+    height: 128px;
+    width: 223px;
+    background-color: white;
+    box-shadow: 10px 0px 15px -4px #e0e9ee, -10px 0px 15px -4px #e0e9ee;
+    margin-bottom: -58px;
+    margin-top: -58px;
+}
+
+.pics-row .industry .hexagon-bottom {
+    /*position: absolute;*/
+    width: 128px;
+    height: 114px;
+    transform: rotate(150deg) skew(30deg);
+    background-color: white;
+    margin-left: 47px;
+    box-shadow: 10px 0px 15px -4px #e0e9ee, 0px -10px 15px -4px #e0e9ee;
+}
+
+.hexagon-middle .image-wrapper {
+    height: 128px;
+    width: 223px;
+    background-color: white;
+    position: absolute;
+    z-index: 1;
+}
+
+.hexagon-middle .image-wrapper .industry-text {
+    position: absolute;
+    font-size: 22px;
+    color: #666666;
+    text-align: center;
+    bottom: 0;
+    width: 223px;
+}
+
+.pics-middle {
+    position: absolute;
+    z-index: 1;
+}
+
+.pics-bottom {
+    position: absolute;
+    z-index: 2;
+}
+
+.hexagon-middle .image-wrapper .industry-government {
+    margin: 0 67px;
+}
+
+.hexagon-middle .image-wrapper .industry-finance {
+    margin: 0 77px;
+}
+
+.hexagon-middle .image-wrapper .industry-energy {
+    margin: 0 77px;
+}
+
+.hexagon-middle .image-wrapper .industry-education {
+    margin: 0 58px;
+}
+
+.hexagon-middle .image-wrapper .industry-advertising {
+    margin: 0 75px;
+}
+
+.hexagon-middle .image-wrapper .industry-medical {
+    margin: 0 80px;
+}
+
+.hexagon-middle .image-wrapper .industry-logistics {
+    margin: 0 67px;
+}
+
+.hexagon-middle .image-wrapper .industry-engineering {
+    margin: 0 73px;
+}
+
+.hexagon-middle .image-wrapper .industry-manufacture {
+    margin: 0 85px;
+}
+
+.hexagon-middle .image-wrapper .industry-planning {
+    margin: 20px 0 75px 75px;
+}
+
+.hexagon-middle .image-wrapper .industry-technology {
+    margin: 0 76px;
+}
+
+.hexagon-middle .image-wrapper .industry-consulting {
+    margin: 0 72px;
+}
+
+.panel-ingenuity {
+    background-color: #94bade;
+    color: #ffffff;
+    height: 894px;
+}
+
+.brand-group {
+    height: 378px;
+    padding: 0 21px;
+    margin-top: 108px;
+}
+
+.first-line, .second-line {
+    margin-right: 58px;
+}
+
+.brand-group .brand {
+    margin-bottom: 48px;
+    background-color: white;
+    height: 144px;
+    width: 144px;
+    border-radius: 50%;
+    float: left;
+    line-height: 144px;
+    text-align: center;
+    overflow: hidden; /*如果图片过大，可以选择隐藏*/
+}
+
+.brand-group .brand img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.select-dot {
+    margin-top: 87px;
+    height: 19px;
+}
+
+.select-dot .dot {
+    display: inline-block;
+    /*float: left;*/
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    background-color: white;
+    margin-right: 16px;
+}
+
+.select-dot .dot-left-grey {
+    background-color: #d1d1d1;
+    margin-left: 584px;
+}
+
+.panel-companionship {
+    height: 990px;
+    color: #666666;
+}
+
+.honeycomb {
+    margin-top: 122px;
+}
+
+.hexagon-group ul {
+    height: 206px;
+}
+
+.hexagon-group li {
+    float: left;
+    margin-right: 20px;
+    height: 66px;
+    width: 180px;
+}
+
+.companionship-pics-wrapper-middle li:last-child {
+    margin-right: 0px;
+}
+
+.companionship-pics-wrapper-up .hexagon-group, .companionship-pics-wrapper-bottom .hexagon-group {
+    margin-left: 109px;
+}
+
+.companionship-pics-wrapper-middle .hexagon-group {
+    margin-left: 9px;
+}
+
+.companionship-pics-wrapper-middle, .companionship-pics-wrapper-up {
+    margin-bottom: -38px;
+}
+
+
+

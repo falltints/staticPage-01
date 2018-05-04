@@ -1,0 +1,104 @@
+.public-container {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.header-content {
+    height: 220px;
+}
+
+.header-logo {
+    float: left;
+    padding-top: 18px;
+    width: 320px;
+}
+
+.header-logo .name {
+    width: 105px;
+    height: 38px;
+    background: url("../image/header-logo.jpg");
+    margin-left: 83px;
+    margin-bottom: 11px;
+}
+
+.header-logo .flag {
+    width: 129px;
+    height: 140px;
+    background: url("../image/header-flag.jpg");
+    margin-left: 99px;
+}
+
+.public-header .nav-bar {
+    float: left;
+}
+
+.nav-bar li {
+    float: left;
+}
+
+.nav-bar .nav {
+    margin-top: 32px;
+}
+
+.nav-bar .nav li {
+    float: left;
+    margin-right: 47px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nav-bar .nav li a {
+    color: black;
+}
+
+.nav-bar .nav li a:hover {
+    font-weight: 600;
+}
+
+.nav-bar .nav .phone-number {
+    width: 97px;
+    height: 21px;
+    background: url("../image/phone-number.jpg");
+    margin-right: 0;
+    margin-top: 2px;
+}
+
+.nav-bar .btn-group {
+    margin-top: 26px;
+    margin-right: 22px;
+    margin-left: 22px;
+}
+
+.btn-group li a:hover {
+    font-weight: bolder;
+}
+
+.nav-bar .btn-group li {
+    float: left;
+    width: 92px;
+    height: 30px;
+    border: 2px solid #25a9e1;
+    border-radius: 12%;
+    line-height: 30px;
+    text-align: center;
+}
+
+.btn-group .btn-left {
+    margin-right: 11px;
+}
+
+.btn-group .btn-right {
+    background-color: #25a9e1;
+}
+
+.btn-left a {
+    color: #25a9e1;
+}
+
+.btn-right a {
+    color: white;
+}
+
+.nav-bar .language {
+    margin-top: 32px;
+}

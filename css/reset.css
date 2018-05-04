@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+img {
+    display: block;
+}
+
+.clear-float {
+    zoom: 1;
+}
+
+.clear-float:after {
+    clear: both;
+    content: "";
+    height: 0;
+    display: block;
+}
